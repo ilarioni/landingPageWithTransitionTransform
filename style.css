@@ -70,3 +70,41 @@ button {
     margin-top: 30px;
     cursor: pointer;
 }
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin: 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1 {
+    background-image: url(media/pic-1.png);
+}
+.card2 {
+    background-image: url(media/pic-2.png);
+}
+.card3 {
+    background-image: url(media/pic-3.png);
+}
+.card4 {
+    background-image: url(media/pic-4.png);
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: 12px;
+}
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
